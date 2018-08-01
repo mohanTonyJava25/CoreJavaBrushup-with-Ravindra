@@ -18,6 +18,8 @@ public class linkedlist {
 //	   4) ArrayList is better for storing and accessing data.	LinkedList is better for manipulating data.
 	   
 	LinkedList<Integer> list = new LinkedList<Integer>();
+	LinkedList<String> list1 = new LinkedList<String>();
+	Integer i = 35;
 	
 	try {
 		list.add(24);
@@ -31,7 +33,10 @@ public class linkedlist {
 		list.add(35);
 		list.add(35);
 		list.add(35);
-		list.remove(35);
+		
+		list.remove(i);
+		list1.add("Hello");
+		list1.add("World");
 		
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
@@ -39,15 +44,19 @@ public class linkedlist {
 		e.printStackTrace();
 	
 	}
-	
+             for( int i1=0; i1<list1.size(); i1++)
+                  {
+                   System.out.println(list1.get(i1));
 
-    for( int i=0; i<list.size(); i++)
+                  }
+
+                 for( int i1=0; i1<list.size(); i1++)
                {
-                  System.out.println(list.get(i));
+                  System.out.println(list.get(i1));
 
                }
-              System.out.println(list.size());
+       
+                  System.out.println(list.size());
 
-	
                }
       }

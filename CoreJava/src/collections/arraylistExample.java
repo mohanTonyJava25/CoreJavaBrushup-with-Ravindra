@@ -11,6 +11,7 @@ public class arraylistExample {
 //	check the example. 
 //	array list is growable in size. you can check it with the list.size  
 //	this is sample example of arraylist  
+// arraylist inital size is 10 elements it will grow while adding the elements. 	  
 	  
 	try {
 		list.add(24);
