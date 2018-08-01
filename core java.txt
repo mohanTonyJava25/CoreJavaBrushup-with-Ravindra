@@ -1,0 +1,8 @@
+
+
+1.) oops concepts --> abstract classes and interfaces, inhertiance, ploymorphism
+2.) Exception handling , loging, inner class , Java beans
+3.) java docs and .jar
+4.) collection framework.
+5.) Generics and annotations. 
+6.) threading Basics. 
