@@ -24,7 +24,6 @@ public class treeset {
 			s.add(35);
 			s1.add("Hello");
 			s1.add("World");
-		
 				 System.out.println(s.toString());
 				 System.out.println(s1.toString());
 			 
